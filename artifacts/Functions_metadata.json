@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "age",
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,21 +19,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "newage",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Functions.sol": "State"
+			"Functions.sol": "Functions"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -67,11 +60,11 @@
 	},
 	"sources": {
 		"Functions.sol": {
-			"keccak256": "0x7864765a17a6d53c551bb1c6eb7b3392b8aeb1427ce5150c29eef314c49c0361",
+			"keccak256": "0x7934a81daabc5ecb9ef6423eb77cc7bde4d1679edb04c61817020d36773acb81",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2fd4eb87e49b21d63254843e030c7e674da5494f643d0daff57d17997448ea62",
-				"dweb:/ipfs/QmSh8CZE3QJF2cnzzYMzejgfXULdURwkju5kFMxkipfDnb"
+				"bzz-raw://a0204e9f6b68b1d8737d970c7b9e01f45c7f684dde018bcff40ef3b5aed49d22",
+				"dweb:/ipfs/QmTP4C44FDNLhKnE3NYwcM3ft8QqCaybjRzBFBhGz3wRxe"
 			]
 		}
 	},
